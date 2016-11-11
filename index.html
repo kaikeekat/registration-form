@@ -14,7 +14,7 @@
   <section class="pad-t-2 gutter wrapper">
     <form class="push-0" method="POST" action="http://formspree.io/">
       <h1 class="not-bold">Want to go to Mars?</h1>
-      <p class="mega">We're looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
       <fieldset class="border">
         <legend class="giga italic pad-b-0">Personal details</legend>
       </fieldset>
@@ -45,7 +45,21 @@
         <label>Address</label>
         <textarea id="address" name="address"></textarea>
       </div>
-      <fieldset class=""
+      <fieldset class="border push">
+        <legend class="giga italic">Mission statement</legend>
+      </fieldset>
+      <div class="push">
+        <label>Why do you want to go to Mars?</label>
+        <textarea id="why" name="why"></textarea>
+      </div>
+      <div>
+        <button class="btn" type="submit">Register for the trip!</button>
+      </div>
+      <div>
+        <input type="hidden" value="Request to join the mission!" name="hidden">
+      </div>
+    </form>
+  </section>
 
 </body>
 </html>
